@@ -1,0 +1,125 @@
+body{
+    margin: 2%;
+    background-color: #ced0d6;
+}
+
+
+
+.container{
+    width: 40%;
+    background-color: rgb(217, 240, 237);
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    padding: 0;
+    box-shadow: 0 3px 5px 0 rgba(112, 109, 109, 0.3);
+    animation: transitionIn-Y-over 0.5s;
+
+}
+td{
+    text-align: center;
+
+}
+
+.header-text{
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+
+}
+
+.sub-text{
+    font-size: 20px;
+    color:rgb(44, 44, 44);
+}
+
+.form-label{
+    color: rgb(44, 44, 44);
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300px ;
+}
+.label-td{   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(36, 37, 99);
+    font-size: 15px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.input-text{
+    border-radius: 4px;
+    border: 0.5px solid rgb(226, 226, 226);
+    padding: 30px;
+    width: 88%;
+    transition: 0.2s;
+    outline: none;
+}
+
+.input-text{
+    border: 1px solid #e9ecef;
+    font-size: 14px;
+    line-height: 26px;
+    background-color: #fff;
+    display: block;
+    width: 90%;
+    padding : 3%;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    
+}
+
+
+.input-text::placeholder{
+    font-family: 'Inter', sans-serif;
+}
+
+.hover-link1{
+    font-weight:100;
+}
+
+
+.hover-link1:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+
+
+}
+.login-btn{
+    /*margin-top: 15px;*/
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.btn{
+    background-color: #797373 ;
+    border: #132905 ;
+    color: rgb(29, 27, 27);
+    box-shadow: 0 3px 5px 0 rgba(57,108,240,0.3);
+    cursor: pointer;
+    padding: 8px 20px;
+    outline: none;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn:hover{
+    background-color: rgb(168, 164, 164);
+    box-shadow: none;
+    transition: all 0.5s;
+    font-family: 'Inter', sans-serif;
+
+}
